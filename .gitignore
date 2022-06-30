@@ -1,0 +1,39 @@
+
+# hardhat
+artifacts
+cache
+deployments
+node_modules
+coverage
+coverage.json
+
+# testing
+/coverage
+
+# gas reporting files
+gas-report.txt
+
+# don't push the environment vars!
+.env
+.encryptedKey.json
+
+# Generated files
+bin/
+gen/
+out/
+#  Uncomment the following line in case you need and you don't have the release build type files in your app
+# release/
+
+# Gradle files
+.gradle/
+build/
+
+# Log Files
+*.log
+
+# lint
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
+# lint/reports/
